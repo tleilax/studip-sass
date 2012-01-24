@@ -7,7 +7,7 @@
  */
 
 require 'phamlp/sass/SassParser.php';
-// require 'coffeescript-php/coffeescript/coffeescript.php';
+require 'coffeescript-php/coffeescript/coffeescript.php';
 
 class SassPlugin extends StudIPPlugin implements SystemPlugin
 {
