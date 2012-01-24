@@ -1,0 +1,5 @@
+pluginname=SASS Plugin
+pluginclassname=SassPlugin
+origin=UOL
+version=1.0
+studipMinVersion=2.0
