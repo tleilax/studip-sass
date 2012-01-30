@@ -29,6 +29,8 @@ class SassPlugin extends StudIPPlugin implements SystemPlugin
             return CoffeeScript\compile(file_get_contents($source));
         });
     */
+        // So we let js compile the coffee-script on-the-fly
+        PageLayout::addScript($this->getPluginURL() . '/coffeescript-js/coffee-script.js');
     }
 
     /**
